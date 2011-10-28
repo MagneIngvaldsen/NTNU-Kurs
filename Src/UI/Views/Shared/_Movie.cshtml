@@ -1,0 +1,27 @@
+﻿@model MovieViewModel
+<section class="movie">
+    <a class="image" href="#">
+        <img src="@Model.CoverUrl" alt="@Model.Title" />
+        @if (!string.IsNullOrEmpty(Model.TrailerUrl))
+        { 
+            <span class="trailer"></span>
+        }
+    </a>
+    <div class="info">
+        <h2>@(Html.ActionLink<MovieController>(x => x.Details(Model.Title.ToUrlText()),Model.Title))</h2>
+        <span>@Model.Description</span>
+        <div class="length">
+            <label>Length: </label><span>@Model.Length</span>
+        </div>
+        <div class="releasedate">
+            <label>Release Date: </label><time datetime="@Model.ReleaseDateShortDate">@Model.ReleaseDateShortDate</time>
+        </div>
+    </div>
+</section>
+@if (!string.IsNullOrEmpty(Model.TrailerUrl))
+{ 
+<section class="trailer hidden">
+    <a class="close" href="#">x</a>
+    <iframe src="@Model.TrailerUrl" frameborder="0" allowfullscreen></iframe>
+</section>
+}

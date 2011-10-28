@@ -1,0 +1,28 @@
+﻿@model ITVerket.FinalCut.UI.Models.MovieViewModel
+
+<h2>Ajax example</h2>
+
+<input type="button" id="save" value="Ajax post" />
+
+<fieldset>
+<legend>Movie</legend>
+@Html.Label("Title")
+@Html.TextBox("Title")<br />
+@Html.Label("Description")
+@Html.TextBox("Description")
+</fieldset>
+
+<div id="result"></div>
+
+<script>
+    $("#save").click(function () {
+        var movie = {
+        Title : $("#Title").val(),
+        Description : $("#Description").val()
+        };
+        $.post("/ajax/create", movie, function() {
+            $("#result").html("Movie created");
+        }); 
+        return false;
+    });
+</script>
