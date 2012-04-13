@@ -1,0 +1,13 @@
+﻿@model MovieViewModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+@Html.Partial("_Movie")
+<div id="Buttons">
+    @(Html.ActionLink<MovieController>(x => x.Edit(Model.Title.ToUrlText()), "Edit")) |
+    @(Html.ActionLink<MovieController>(x => x.Index(),"Back to List"))
+</div>

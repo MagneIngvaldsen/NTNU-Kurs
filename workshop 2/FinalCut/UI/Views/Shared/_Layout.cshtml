@@ -1,0 +1,26 @@
+﻿<html>
+<head>
+    <title>FinalCut - @ViewBag.Title</title>
+    <link href="@Url.Content("~/Content/jcarousel/skin.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/themes/base/jquery-ui.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" type="text/css" />
+    <script src="@Url.Content("~/Scripts/jquery-1.6.4.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/jquery-ui-1.8.16.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/modernizr-2.0.6-development-only.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/jquery.jcarousel.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/jquery.unobtrusive-ajax.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/script.js")" type="text/javascript"></script>
+</head>
+
+<body>
+    <section class="wrapper">
+        <section class="glass">
+        <header>@(Html.ActionLink<HomeController>(x => x.Index(), "Final Cut"))</header>
+        @RenderBody()
+        <footer><a href="http://www.itverket.no">Laget av ITVerket</a></footer>
+        </section>
+    </section>
+</body>
+</html>

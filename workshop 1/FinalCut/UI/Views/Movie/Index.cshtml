@@ -1,0 +1,17 @@
+﻿@model IEnumerable<MovieViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@(Html.ActionLink<MovieController>(x => x.Create(), "Create New", new { id = "new"}))
+
+@foreach (var item in Model)
+{
+    @Html.Partial("_Movie", item)
+}
+
+<section id="CreateDialog">
+</section>
