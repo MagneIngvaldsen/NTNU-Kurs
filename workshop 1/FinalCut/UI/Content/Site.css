@@ -1,0 +1,504 @@
+*
+{
+    font-family: Verdana, Helvetica, Sans-Serif;
+    margin:0;
+    padding:0;
+}
+
+body
+{
+    color: #232323;
+    background:#111111 url("./images/bb1080287f2b44fa9191c8437058af2b.jpg") no-repeat fixed center top;
+    font-size:10px;
+}
+
+header,
+footer,
+nav,
+section {
+    display: block;
+}
+
+/* Styles for basic forms
+-----------------------------------------------------------*/
+
+fieldset 
+{
+    border:1px solid #ddd;
+    padding:0 1.4em 1.4em 1.4em;
+    margin:0 0 1.5em 0;
+}
+
+legend 
+{
+    font-size:1.2em;
+    font-weight: bold;
+}
+
+textarea 
+{
+    min-height: 75px;
+}
+
+input, textarea
+{
+    background: url("./themes/base/images/ui-bg_highlight-soft_100_eeeeee_1x100.png") repeat-x scroll 50% top #EEEEEE;
+    margin: 0 0 0.3em;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 4px 4px 4px;
+    padding: 0.3em 0.5em 0.3em 1.9em;
+    height: 2.8em;
+    color: #333333;
+    font-size:1.2em;
+}
+
+select {
+    background: url("./themes/base/images/ui-bg_highlight-soft_100_eeeeee_1x100.png") repeat-x scroll 50% top #EEEEEE;
+    margin: 0 0 3px;
+    padding: 4px 5px 2px 19px;
+    height: 2.5em;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 4px 4px 4px;
+    color: #333333;
+    font-size:1.2em;
+}
+
+
+
+.editor-label 
+{
+    margin: 1em 0 0 0;
+}
+
+.editor-field 
+{
+    margin:0.5em 0 0 0;
+}
+
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error
+{
+    color: #ff0000;
+}
+
+.field-validation-valid
+{
+    display: none;
+}
+
+.input-validation-error
+{
+    border: 1px solid #ff0000 !important;
+    background-color: #ffeeee !important;
+}
+
+.validation-summary-errors
+{
+    padding-top:1em;
+    font-size:1.2em;
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.validation-summary-errors ul
+{
+    list-style-position:inside;    
+}
+
+.validation-summary-valid
+{
+    display: none;
+}
+
+
+label, input[type="button"], input[type="submit"], input[type="image"], button 
+{
+    cursor: pointer;
+}
+
+.hidden
+{
+    display:none;
+}
+
+#featuredMovies
+{}
+
+#featuredMovies h4
+{
+    font-size:1.4em;
+    font-weight:bold;
+}
+
+.jcarousel-skin-tango .jcarousel-container-horizontal
+{
+    padding: 2em 2.5em;
+    width: 22em;
+}  
+
+#featuredMovies label {font-size: 1.2em;display:inline-block; width: 100px; font-weight:bold;}  
+
+
+section.wrapper
+{
+    width:72em;
+    margin:3em auto;
+    box-shadow: 0.5em 0.5em 1em #111;
+    background-color: #000;
+    border: 0px none;
+}
+
+header
+{
+    background: transparent url(./themes/Finalcut.png) top center no-repeat;
+}
+
+header a
+{
+    text-indent:-10000px;
+    display:block;
+    overflow:hidden;
+    height: 12.6em;
+}
+
+footer
+{
+    clear:both;
+    padding-top:4em;
+}
+
+footer a
+{
+    display:block;
+    float:right;
+    overflow:hidden;
+    text-decoration:none;
+}
+
+section
+{
+    color:#fff;
+    border-radius: 2em; 
+    overflow:hidden;
+}
+
+.glass
+{
+    background: rgba(0,0,0,0.15);
+    box-shadow: 0 0.2em 0.6em rgba(0,0,0,0.5), inset 0 0.1em rgba(255,255,255,0.3), inset 0 1em rgba(255,255,255,0.2), inset 0 1em 2em rgba(255,255,255,0.25), inset 0 -1.5em 3em rgba(0,0,0,0.3);
+    border: 0.1em solid rgba(0,0,0,0.5);
+    padding:2em;
+}
+
+h2
+{
+    padding:0em 1em 1em 0em;
+    font-size:1.6em;
+}
+
+section a, section a:visited, section a:hover
+{
+    color:#ffffff;
+}
+
+section#search
+{
+    margin:0px:auto;
+    width:38em;
+    margin:3em auto;
+    border-radius:0px;
+}
+
+section#search h2
+{
+    padding: 0em 0em 1em 0em;
+}
+
+section#search #SearchCriteria
+{
+    margin: 0em;
+    height:2.2em;
+    width:8em;
+    vertical-align:top;
+}
+
+section#search #SearchText
+{
+    vertical-align:top;
+    height:2.2em;
+    width:15em;
+    margin: 0em 1em;
+}
+
+section#search #Search
+{
+    vertical-align:top;
+    height:2.2em;
+    width:6.6em;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 0.1em;
+    overflow: visible;
+    margin: 0em;
+    padding: 0 1em 0 1em;
+    position: relative;
+    font-size:1.2em;
+    font-weight:bold;
+    text-align: center;
+    text-decoration: none !important;
+}
+
+#new, #list
+{
+    display:block;
+    clear:both;
+    float:right;
+    font-size:1.3em;
+    margin-bottom:1em;
+}
+
+.movie
+{
+    background: rgba(200,200,200,0.15);
+    overflow:hidden;
+    width:68em;
+    margin-bottom:2em;
+    padding:0;
+}
+
+
+.movie .image
+{
+    float:left;
+    display:block;
+    height:31.7em;
+    width:21.4em;
+}
+
+.movie .image:hover span.trailer
+{
+    display:block;
+}
+
+.movie span.trailer
+{
+    display:none; 
+    background: url('./themes/button_trailer.png') center center no-repeat; 
+    border-radius: 0.4em;
+    background-size:100% 100%;
+    margin: -18.4em 0 0 8.4em; 
+    height: 5.1em;
+    width: 5em;
+    position: relative; 
+    z-index: 100; 
+}
+
+.movie .info
+{
+    float:left;
+    padding:0em 1em 0em 1em;
+    width:27.1em;
+    font-size:1.6em;
+}
+
+.movie .info h2
+{
+    padding-left:0;
+    font-size:1.6em;
+    text-shadow: 3px 3px 7px rgba(250,250,250,0.5);
+}
+
+
+.movie label
+{
+    display: block;
+    float:left;
+    color: #ffffff;
+    height: 2.0em;
+    letter-spacing: 0;
+    min-width: 10em;
+    white-space: nowrap;
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+.movie .info div
+{
+    overflow:hidden;
+    width:26.9em;
+    margin-bottom: 0.3em;
+    margin-right: 0.2em;
+    margin-top: 0;
+    padding-top: 0.5em;
+}
+
+.movie .info div.length
+{
+    margin-top:0.5em;
+}
+
+.movie .info div span, .movie .info div time
+{
+    display:block;
+    float:left;
+    height: 2.0em;
+}
+
+section.trailer
+{
+    position:relative;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 1);
+    margin-bottom:2em;
+}
+
+section.trailer .close
+{
+    position:absolute;
+    display:block;
+    right:0;
+    top:0;
+    padding:1em;
+}
+
+section.trailer iframe
+{
+    width:100%;
+    height:50em;
+}
+
+.edit 
+{
+    float:none;
+    padding:2em;
+    width:64em;
+}
+
+.edit label
+{
+    margin-bottom: 0.3em;
+    margin-right: 0.2em;
+    margin-top: 0;
+    padding-top: 0.5em;
+    padding-left: 0.6em;
+    float:none;
+}
+
+.edit input, .edit textarea, .edit select {
+    display: block;
+    width: 100%;
+}
+
+.ui-dialog ui-state-hover
+{
+    background:transparent none;
+}
+
+.ui-widget-header
+{
+    background:transparent none;
+    border:none;
+}
+
+.ui-datepicker-header
+{
+    background: url("images/ui-bg_highlight-soft_75_cccccc_1x100.png") repeat-x scroll 50% 50% #CCCCCC;
+    border: 1px solid #AAAAAA;
+}
+
+.ui-widget-content
+{ 
+    background:transparent none;
+    color:#fff;
+}
+
+.ui-datepicker
+{
+    background: url("images/ui-bg_flat_75_ffffff_40x100.png") repeat-x scroll 50% 50% #FFFFFF;
+}
+
+.ui-dialog
+{
+    background: rgba(0,0,0,0.95);
+    box-shadow: 0 0.2em 0.6em rgba(0,0,0,0.5), inset 0 0.1em rgba(255,255,255,0.3), inset 0 1em rgba(255,255,255,0.2), inset 0 1em 2em rgba(255,255,255,0.25), inset 0 -1.5em 3em rgba(0,0,0,0.3);
+    border: 0.1em solid rgba(0,0,0,0.5);
+    border-radius: 2em; 
+    padding:0 2em 2em 2em;
+}
+
+.ui-dialog .ui-dialog-buttonpane
+{
+    border :0px none;
+}
+
+.ui-dialog #Buttons
+{
+    display:none;
+}
+
+.ui-draggable .ui-dialog-titlebar
+{
+}
+
+.ui-helper-clearfix:after
+{
+    height:auto;
+}
+
+.ui-dialog .ui-dialog-titlebar-close {
+    background:transparent none !important;
+    height: 2.7em;
+    margin: 0px 0 0;
+    padding: 1px;
+    position: absolute;
+    right: -0.5em;
+    top: 10%;
+    width: 2.8em;
+}
+
+.ui-dialog .ui-dialog-titlebar-close span.ui-icon
+{
+    margin:0.6em;
+    background-image: url("themes/base/images/ui-icons_ffffff_256x240.png");
+}
+
+#Buttons
+{
+    clear:both;
+    float:right;
+    margin: 0 1em 0.3em 0;
+    font-size:1.3em;
+}
+
+.edit #Save
+{
+    background: transparent none;
+    border:0px none;
+    text-decoration:underline;
+    color:#ffffff;
+    width:4em;
+    height: 1.8em;
+    margin:0px;
+    font-size:1em;
+    padding: 0.3em 0.5em 0.3em 0.5em;
+    display:inline;
+    float:none;
+}
+
+.edit #Cancel
+{
+    background: transparent none;
+    border:0px none;
+    text-decoration:underline;
+    color:#ffffff;
+    height: 1.8em;
+    padding: 0.3em 0.5em 0.3em 0.5em;
+}
+
+.jcarousel-skin-tango .jcarousel-container 
+{
+    background: transparent none !important;
+    border: 0px none !important;
+}
+

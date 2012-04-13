@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITVerket.FinalCut.UI", "UI\ITVerket.FinalCut.UI.csproj", "{28771DE4-7A5B-477A-9C9F-3C1BD20EE432}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITVerket.FinalCut.Domain", "Domain\ITVerket.FinalCut.Domain.csproj", "{317DD1E2-62B0-4078-BA8C-403C1E92541F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITVerket.FinalCut.Services", "Services\ITVerket.FinalCut.Services.csproj", "{749A0D22-BFA5-4A69-808F-AEA8F4174A74}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28771DE4-7A5B-477A-9C9F-3C1BD20EE432}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28771DE4-7A5B-477A-9C9F-3C1BD20EE432}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28771DE4-7A5B-477A-9C9F-3C1BD20EE432}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28771DE4-7A5B-477A-9C9F-3C1BD20EE432}.Release|Any CPU.Build.0 = Release|Any CPU
+		{317DD1E2-62B0-4078-BA8C-403C1E92541F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{317DD1E2-62B0-4078-BA8C-403C1E92541F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{317DD1E2-62B0-4078-BA8C-403C1E92541F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{317DD1E2-62B0-4078-BA8C-403C1E92541F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{749A0D22-BFA5-4A69-808F-AEA8F4174A74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{749A0D22-BFA5-4A69-808F-AEA8F4174A74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{749A0D22-BFA5-4A69-808F-AEA8F4174A74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{749A0D22-BFA5-4A69-808F-AEA8F4174A74}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
